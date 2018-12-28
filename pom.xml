@@ -6,7 +6,11 @@
 
     <groupId>com.udemy.training</groupId>
     <artifactId>kafka-learning</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>kafka-producer-twitter</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -40,8 +44,8 @@
                         </goals>
                         <configuration>
                             <sourceDirs>
-                                <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
-                                <sourceDir>${project.basedir}/src/main/java</sourceDir>
+                                <sourceDir>${project.basedir}/src/com.udemy.training.kafka.main/kotlin</sourceDir>
+                                <sourceDir>${project.basedir}/src/com.udemy.training.kafka.main/java</sourceDir>
                             </sourceDirs>
                         </configuration>
                     </execution>

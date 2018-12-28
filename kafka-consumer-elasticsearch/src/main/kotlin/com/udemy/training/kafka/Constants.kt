@@ -1,4 +1,4 @@
-package com.udemy.traning.kafka
+package com.udemy.training.kafka
 
 class Constants {
 
